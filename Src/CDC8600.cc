@@ -649,6 +649,7 @@ namespace CDC8600
 	    makeinstr[0x30]  = new maker<jmp>;
 	    makeinstr[0x3]  = new maker<jmpk>;
 
+	}
 	vector<u64> decode
 	/*
 	 * Takes as input a 32-bit halfword containing either one 32-bit instruction or two 16-bit instruction.
